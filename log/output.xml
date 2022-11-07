@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0 (Python 3.9.6 on darwin)" generated="20221103 20:58:48.587" rpa="false" schemaversion="3">
+<suite id="s1" name="ShoppingPage keywords" source="/Users/testvagrant/PycharmProjects/RobotFrameWork/keywords/ShoppingPage_keywords.robot">
+<test id="s1-t1" name="Navigate to Amazon website" line="15">
+<kw name="Open Browser">
+<arg>https://www.amazon.in/</arg>
+<arg>Chrome</arg>
+<msg timestamp="20221103 20:58:48.612" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20221103 20:58:48.612" endtime="20221103 20:58:48.612"/>
+</kw>
+<kw name="Click Element">
+<arg>//span[@id='nav-link-accountList-nav-line-1']</arg>
+<status status="NOT RUN" starttime="20221103 20:58:48.614" endtime="20221103 20:58:48.614"/>
+</kw>
+<kw name="Input Text">
+<arg>//input[@id='ap_email']</arg>
+<status status="NOT RUN" starttime="20221103 20:58:48.615" endtime="20221103 20:58:48.615"/>
+</kw>
+<kw name="Click Element">
+<arg>//input[@id='continue']</arg>
+<status status="NOT RUN" starttime="20221103 20:58:48.616" endtime="20221103 20:58:48.616"/>
+</kw>
+<kw name="Input Password">
+<arg>//input[@id='ap_password']</arg>
+<status status="NOT RUN" starttime="20221103 20:58:48.618" endtime="20221103 20:58:48.618"/>
+</kw>
+<kw name="Click Element">
+<arg>//input[@id='signInSubmit']</arg>
+<status status="NOT RUN" starttime="20221103 20:58:48.619" endtime="20221103 20:58:48.619"/>
+</kw>
+<kw name="Click Element(Mobiles)">
+<arg>//a[contains(text(),'Mobiles')]</arg>
+<status status="NOT RUN" starttime="20221103 20:58:48.621" endtime="20221103 20:58:48.621"/>
+</kw>
+<kw name="Click Element //span[contains(text(),'Starting ₹6,999')]">
+<status status="NOT RUN" starttime="20221103 20:58:48.622" endtime="20221103 20:58:48.622"/>
+</kw>
+<status status="FAIL" starttime="20221103 20:58:48.611" endtime="20221103 20:58:48.622">No keyword with name 'Open Browser' found.</status>
+</test>
+<doc>Keywords for Process Payment by Card Service</doc>
+<status status="FAIL" starttime="20221103 20:58:48.589" endtime="20221103 20:58:48.623"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="ShoppingPage keywords">ShoppingPage keywords</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221103 20:58:48.607" level="ERROR">Error in file '/Users/testvagrant/PycharmProjects/RobotFrameWork/keywords/ShoppingPage_keywords.robot' on line 6: Importing library 'RequestsLibrary' failed: ModuleNotFoundError: No module named 'RequestsLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/testvagrant/Library/Application Support/JetBrains/PyCharmCE2022.2/plugins/robotframework-intellij/lib/robotframework_debug_adapter
+  /Users/testvagrant/PycharmProjects/RobotFrameWork
+  /Users/testvagrant/Library/Application Support/JetBrains/PyCharmCE2022.2/plugins/robotframework-intellij/lib
+  /Users/testvagrant/Library/Application Support/JetBrains/PyCharmCE2022.2/plugins/robotframework-intellij/lib/robotframework_ls/vendored
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Users/testvagrant/Library/Python/3.9/lib/python/site-packages
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+<msg timestamp="20221103 20:58:48.609" level="ERROR">Error in file '/Users/testvagrant/PycharmProjects/RobotFrameWork/keywords/ShoppingPage_keywords.robot' on line 7: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/testvagrant/Library/Application Support/JetBrains/PyCharmCE2022.2/plugins/robotframework-intellij/lib/robotframework_debug_adapter
+  /Users/testvagrant/PycharmProjects/RobotFrameWork
+  /Users/testvagrant/Library/Application Support/JetBrains/PyCharmCE2022.2/plugins/robotframework-intellij/lib
+  /Users/testvagrant/Library/Application Support/JetBrains/PyCharmCE2022.2/plugins/robotframework-intellij/lib/robotframework_ls/vendored
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Users/testvagrant/Library/Python/3.9/lib/python/site-packages
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+</errors>
+</robot>
