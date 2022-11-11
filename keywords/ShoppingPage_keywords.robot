@@ -41,7 +41,7 @@ Cart Page
     ${price2}=           Fetch From Left                ${price1}    .
     ${quantity}          get element attribute          ${get_quantity}    value
     log to console       Price of single unit: ${price}
-    log to console       Quatity(s): ${quantity}
+    log to console       Quantity(s): ${quantity}
     ${result}=           Evaluate                       ${price2} * ${quantity}
     ${result1}           convert to string              ${result}
     log to console       Total: $${result}
