@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Keywords for Automation Amazon Page
+Documentation    Keywords for Demo Store Super SQA shopping page
 
 Library    OperatingSystem
 Library    SeleniumLibrary
